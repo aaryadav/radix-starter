@@ -1,4 +1,4 @@
-Template to create a website frontend with radix and stitches
+Template to create a website frontend with radix and stitches.
 
 Run the following command on your command line to get started.
 ```
