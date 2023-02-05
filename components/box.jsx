@@ -2,6 +2,6 @@ import { styled } from '../stitches.config';
 
 export const Box = styled('div', {
     display: 'flex',
-    fontFamily: '$mono',
+    fontFamily: '$sans',
     fontSize: '$p',
 });

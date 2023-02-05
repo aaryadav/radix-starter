@@ -1,7 +1,5 @@
 import { styled } from '../stitches.config';
 import { Box } from '../components/box';
-import { Card } from '../components/card';
-
 
 const StyledContent = styled(Box, {
     position: 'absolute',
@@ -18,7 +16,7 @@ const StyledContent = styled(Box, {
 const Content = ({ children }) => {
     return (
         <StyledContent>
-            <Card/>
+            {children}
         </StyledContent>
     );
 }

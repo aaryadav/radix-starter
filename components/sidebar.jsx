@@ -58,9 +58,10 @@ const NavItem = styled(Box, {
 
 const Sidebar = ({ items, theme }) => {
     return (
-        <StyledSidebar theme={theme}>
+        // first child target
+        <StyledSidebar theme={theme} css={{ '& > *:first-child': { marginTop: '30px' } }}>
             {items.map((item) => (
-                <NavItem theme={theme}>
+                <NavItem theme={theme} key={item.id}>
                     {item.title}
                 </NavItem>
             ))}

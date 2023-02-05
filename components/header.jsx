@@ -55,7 +55,7 @@ const Header = ({ items, theme }) => {
     return (
         <StyledHeader theme={theme}>
             {items.map((item) => (
-                <HeaderItem theme={theme}>
+                <HeaderItem theme={theme} key={item.id}>
                     {item.title}
                 </HeaderItem>
             ))}
